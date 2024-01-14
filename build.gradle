@@ -1,6 +1,13 @@
-plugins {
-	id 'java'
+apply plugin: 'java'
+apply plugin: 'application'
+
+application{
+	mainClassName = 'com.example.project.A22'
 }
+
+// plugins {
+	// id 'java'
+// }
 
 repositories {
 	mavenCentral()
